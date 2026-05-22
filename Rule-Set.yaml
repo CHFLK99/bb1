@@ -207,19 +207,19 @@ rules:
 rule-providers: 
   # 域名规则
   private_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/private.mrs"}
-  Openai_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/OpenAI.list" }
-  github_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/GitHub.list"}
-  youtube_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/YouTube.list"}
-  microsoft_domain:  { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Microsoft.list"}
-  apple_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Apple.list"}
-  telegram_domain:   { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Telegram.list"}
-  netflix_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Netflix.list"}
-  disney_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Disney.list"}  
-  max_domain:        { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/HBO.list"}
-  emby_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Emby.list"}
-  game_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Games.list"}
-  media_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
-  spotify_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/chflk99/bb1/refs/heads/main/Rule/Spotify.list"}
+  Openai_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/OpenAI.list" }
+  github_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GitHub.list"}
+  youtube_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/YouTube.list"}
+  microsoft_domain:  { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Microsoft.list"}
+  apple_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Apple.list"}
+  telegram_domain:   { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Telegram.list"}
+  netflix_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Netflix.list"}
+  disney_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Disney.list"}  
+  max_domain:        { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/HBO.list"}
+  emby_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Emby.list"}
+  game_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Games.list"}
+  media_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
+  spotify_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Spotify.list"}
   geolocation-!cn:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/geolocation-!cn.mrs"}
   cn_domain:         { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/cn.mrs"}
   add_direct_domain: { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Seven1_Direct_Domain.mrs"}
