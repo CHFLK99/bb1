@@ -127,11 +127,9 @@ proxy-groups:
   - {name: GitHub,    <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/GitHub.png}
   - {name: Microsoft, <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Microsoft.png}
   - {name: Apple,     <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Apple.png}
-  - {name: TikTok,    <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/TikTok.png}
   - {name: Telegram,  <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Telegram.png}
   - {name: Netflix,   <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Netflix.png}
   - {name: Disney,    <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Disney.png}
-  
   - {name: MAX,       <<: *Anchor_OB, icon: }
   - {name: EMBY,      <<: *Anchor_OB, icon: }
   - {name: 游戏平台,   <<: *Anchor_OB, icon: }
@@ -185,13 +183,12 @@ rules:
    # 服务分流
   - RULE-SET,private_domain,DIRECT                                      # Private
   - RULE-SET,private_ip,DIRECT,no-resolve                               # Private
-  - RULE-SET,Openai_domain,Openai                                      # Openai
+  - RULE-SET,Openai_domain,Openai                                       # Openai
   - RULE-SET,github_domain,GitHub                                       # GitHub
   - RULE-SET,youtube_domain,YouTube                                     # YouTube
   - RULE-SET,microsoft_domain,Microsoft                                 # 微软服务
   - RULE-SET,apple_domain,Apple                                         # 苹果服务
   - RULE-SET,telegram_domain,Telegram                                   # Telegram
-  - RULE-SET,tiktok_domain,TikTok                                       # TikTok
   - RULE-SET,netflix_domain,Netflix                                     # Netflix
   - RULE-SET,disney_domain,Disney                                       # Disney+
   - RULE-SET,spotify_domain,Spotify                                     # Spotify
@@ -217,7 +214,6 @@ rule-providers:
   microsoft_domain:  { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Microsoft.list"}
   apple_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Apple.list"}
   telegram_domain:   { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Telegram.list"}
-  tiktok_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Tiktok.list"}
   netflix_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Netflix.list"}
   disney_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Disney.list"}  
   max_domain:        { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/HBO.list"}
