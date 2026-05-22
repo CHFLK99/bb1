@@ -126,7 +126,6 @@ proxy-groups:
   - {name: Openai,    <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/ChatGPT.png}
   - {name: GitHub,    <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/GitHub.png}
   - {name: Microsoft, <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Microsoft.png}
-  - {name: AppleTV,   <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/AppleTV.png}
   - {name: Apple,     <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Apple.png}
   - {name: TikTok,    <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/TikTok.png}
   - {name: Telegram,  <<: *Anchor_OB, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Telegram.png}
