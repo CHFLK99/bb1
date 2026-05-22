@@ -212,20 +212,20 @@ rules:
 rule-providers: 
   # 域名规则
   private_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
-  Openai_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
-  github_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
-  youtube_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
-  microsoft_domain:  { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
-  apple_domain:      { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"}
-  telegram_domain:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
-  tiktok_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
-  netflix_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
-  disney_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/disney.mrs"}  
-  max_domain:         { <<: *Anchor_DN, url: ""}
-  emby_domain:        { <<: *Anchor_DN, url: ""}
-  game_domain:        { <<: *Anchor_DN, url: ""}
-  media_domain:       { <<: *Anchor_DN, url: ""}
-  spotify_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"}
+  Openai_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/OpenAI.list" }
+  github_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GitHub.list"}
+  youtube_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/YouTube.list"}
+  microsoft_domain:  { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Microsoft.list"}
+  apple_domain:      { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Apple.list"}
+  telegram_domain:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Telegram.list"}
+  tiktok_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Tiktok.list"}
+  netflix_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Netflix.list"}
+  disney_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Disney.list"}  
+  max_domain:         { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/HBO.list"}
+  emby_domain:        { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Emby.list"}
+  game_domain:        { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Games.list"}
+  media_domain:       { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
+  spotify_domain:    { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Spotify.list"}
   geolocation-!cn:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
   cn_domain:         { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
   add_direct_domain: { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/Seven1echo/Yaml/refs/heads/main/rules/Seven1_Direct_Domain.mrs"}
