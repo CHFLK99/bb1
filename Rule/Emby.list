@@ -2,20 +2,17 @@
 # AUTHOR: justdoiting
 # REPO: https://github.com/justdoiting/emby-rules
 # UPDATED: 2024-04-30 10:32:25
-# DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 20
+# DOMAIN-KEYWORD: 0
+# DOMAIN-SUFFIX: 22
 # IP-CIDR: 1
-# TOTAL: 32
-DOMAIN-SUFFIX,pub1.emby.wtf
-DOMAIN-SUFFIX,pub2.emby.wtf
-DOMAIN-SUFFIX,pub3.emby.wtf
-DOMAIN-SUFFIX,cf.jmsooo.com
+# TOTAL: 33
 DOMAIN-SUFFIX,misty.ltd
+DOMAIN-SUFFIX,tanhuatv.site
 DOMAIN-SUFFIX,play.charontv.com
 DOMAIN-SUFFIX,cf.misakaf.org
 DOMAIN-SUFFIX,emby.misakaf.org
 DOMAIN-SUFFIX,emby2.misakaf.org
-DOMAIN-SUFFIX,pornemby.club
+DOMAIN-SUFFIX,pornemby.com
 DOMAIN-SUFFIX,emby.xeton.dev
 DOMAIN-SUFFIX,jellyfin.xeton.dev
 DOMAIN-SUFFIX,movie.xeton.dev
@@ -27,16 +24,4 @@ DOMAIN-SUFFIX,line.xmsl.org
 DOMAIN-SUFFIX,pm.xmsl.org
 DOMAIN-SUFFIX,cf.emby.ml
 DOMAIN-SUFFIX,cf.imetyou.top
-DOMAIN-KEYWORD,imetyou
-DOMAIN-KEYWORD,emby
-DOMAIN-KEYWORD,xmsl
-DOMAIN-KEYWORD,jmsooo
-DOMAIN-KEYWORD,plusmedia
-DOMAIN-KEYWORD,odysseyplus
-DOMAIN-KEYWORD,xeton
-DOMAIN-KEYWORD,charontv
-DOMAIN-KEYWORD,misakaf
-DOMAIN-KEYWORD,pornemby
-DOMAIN-KEYWORD,123456
-DOMAIN-KEYWORD,misty
 IP-CIDR,161.97.148.156/24,no-resolve
