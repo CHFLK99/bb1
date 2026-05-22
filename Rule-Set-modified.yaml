@@ -186,7 +186,7 @@ rules:
    # 服务分流
   - RULE-SET,private_domain,DIRECT                                      # Private
   - RULE-SET,private_ip,DIRECT,no-resolve                               # Private
-  - RULE-SET,Openai_domain:,Openai                                      # Openai
+  - RULE-SET,Openai_domain,Openai                                      # Openai
   - RULE-SET,github_domain,GitHub                                       # GitHub
   - RULE-SET,youtube_domain,YouTube                                     # YouTube
   - RULE-SET,microsoft_domain,Microsoft                                 # 微软服务
