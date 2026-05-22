@@ -36,7 +36,7 @@ proxy-providers:
 #  机场名: {<<: *Anchor_PR, url: '订阅链接', override: {additional-prefix: '[机场名] '}}
   奇异云10: {<<: *Anchor_PR, url: 'https://b01b.microvmcdn.org/api/v1/client/subscribe?token=762bc979fd7121df1779f94692672a07', override: {additional-prefix: '[奇异云10] '}}
   奇异云15: {<<: *Anchor_PR, url: 'https://iaas.cloudsubmax.com/api/v1/client/subscribe?token=6371046806d08719fc3e096ea6c7682d', override: {additional-prefix: '[奇异云15] '}}
-  Cloudflare: {<<: *Anchor_PR, url: 'https://ljzallee.ccwu.cc/sub?token=faf64263488b58e618cdb160821adc56', override: {additional-prefix: '[Cloudflare] '}}
+  Cloudflare: {<<: *Anchor_PR, url: 'https://chflk99.ccwu.cc/sub?token=f6df5ceb8e76420993721ad9e5c6b352', override: {additional-prefix: '[Cloudflare] '}}
 
 
 # ※※※※※※※※※※※※※※※ 核心配置 ※※※※※※※※※※※※※※※
