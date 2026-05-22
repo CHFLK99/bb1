@@ -103,7 +103,7 @@ sniffer:
 dns:
   enable: true                                                          # 解析服务  启用 Clash 内置 DNS 服务
   listen: 0.0.0.0:7874                                                  # 监听服务  DNS 服务监听地址与端口
-  ipv6: true                                                            # 网络协议  启用 IPv6 DNS 解析支持
+  ipv6: false                                                           # 网络协议  启用 IPv6 DNS 解析支持
   enhanced-mode: fake-ip                                                # 增强模式  FDNS 增强模式（Fake-IP，用于防止 DNS 泄露）
   fake-ip-range: 198.18.0.1/16                                          # 虚拟地址  Fake-IP 虚拟地址池范围
   fake-ip-filter-mode: blacklist                                        # 过滤模式  Fake-IP 过滤模式（命中规则则返回真实 IP）
