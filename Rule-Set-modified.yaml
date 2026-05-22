@@ -128,7 +128,7 @@ proxy-groups:
   - {name: Telegram,  <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Telegram.png}
   - {name: Netflix,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Netflix.png}
   - {name: Disney,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Disney.png}
-  - {name: MAX,       <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/MAX.png }
+  - {name: MAX,       <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Max.png }
   - {name: EMBY,      <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Emby.png }
   - {name: 游戏平台,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Steam.png }
   - {name: 国外媒体,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/GlobalMedia.png }
