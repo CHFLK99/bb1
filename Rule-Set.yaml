@@ -198,6 +198,7 @@ rules:
   - RULE-SET,game_domain,游戏平台                                        # 游戏平台
   - RULE-SET,media_domain,国外媒体                                       # 国外媒体                                     
   - RULE-SET,geolocation-!cn,一键代理                                    # 排除国内
+  - RULE-SET,google_ip,Google,no-resolve                                # Google
   - RULE-SET,telegram_ip,Telegram,no-resolve                            # Telegram
   - RULE-SET,netflix_ip,Netflix,no-resolve                              # Netflix
   - RULE-SET,add_direct_domain,DIRECT                                   # 直连域名
