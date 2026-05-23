@@ -9,7 +9,7 @@
 # ① 订阅锚点
 Anchor_PR: &Anchor_PR {type: http, interval: 86400, proxy: DIRECT, health-check: {enable: true, url: 'https://www.g.cn/generate_204', interval: 300}, filter: "^(?!.*(到期|过期|剩余|网址|官网|邮箱|订阅|套餐|流量|说明|重置)).*$"}
 # ② 出站锚点
-Anchor_OB: &Anchor_OB {type: select, proxies: [一键代理, 香港故转, 台湾故转, 日本故转, 韩国故转, 新加坡故转, 美国故转, 欧洲故转, 香港自动, 台湾自动, 日本自动, 韩国自动, 新加坡自动, 美国自动, 欧洲自动, 香港手动, 台湾手动, 日本手动, 韩国手动, 新加坡手动, 美国手动, 欧洲手动, 其他手动, DIRECT, REJECT]}
+Anchor_OB: &Anchor_OB {type: select, proxies: [一键代理, 香港故转, 台湾故转, 日本故转, 韩国故转, 新加坡故转, 美国故转, 欧洲故转, 其他故转, 香港自动, 台湾自动, 日本自动, 韩国自动, 新加坡自动, 美国自动, 欧洲自动, 其他自动, 香港手动, 台湾手动, 日本手动, 韩国手动, 新加坡手动, 美国手动, 欧洲手动, 其他手动, DIRECT, REJECT]}
 # ③ 策略锚点
 Anchor_HS: &Anchor_HS {type: select, include-all: true}
 Anchor_FB: &Anchor_FB {type: fallback, url: 'https://www.g.cn/generate_204', interval: 300, lazy: false, timeout: 2000, max-failed-times: 3, hidden: true}
@@ -120,7 +120,7 @@ dns:
 # ※※※※※※※※※※※※※※※ 代理策略组 ※※※※※※※※※※※※※※※
 # 策略组（按服务分组）
 proxy-groups:
-  - {name: 一键代理, type: select, proxies: [香港故转, 台湾故转, 日本故转, 韩国故转, 新加坡故转, 美国故转, 欧洲故转, 香港自动, 台湾自动, 日本自动, 韩国自动, 新加坡自动, 美国自动, 欧洲自动, 香港手动, 台湾手动, 日本手动, 韩国手动, 新加坡手动, 美国手动, 欧洲手动, 其他手动, DIRECT, REJECT], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Rocket.png}
+  - {name: 一键代理, type: select, proxies: [香港故转, 台湾故转, 日本故转, 韩国故转, 新加坡故转, 美国故转, 欧洲故转, 其他故转, 香港自动, 台湾自动, 日本自动, 韩国自动, 新加坡自动, 美国自动, 欧洲自动, 其他自动, 香港手动, 台湾手动, 日本手动, 韩国手动, 新加坡手动, 美国手动, 欧洲手动, 其他手动, DIRECT, REJECT], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Rocket.png}
   - {name: YouTube,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/YouTube.png}
   - {name: Openai,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/ChatGPT.png}
   - {name: GitHub,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/GitHub.png}
@@ -173,7 +173,9 @@ proxy-groups:
   - {name: 欧洲自动,   <<: *Anchor_UT, filter: *Anchor_EU, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/EU.png}
 
   # 其他组
+  - {name: 其他故转,   <<: *Anchor_FB, proxies: [其他手动, 其他自动], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/OT.png}
   - {name: 其他手动,   <<: *Anchor_HS, filter: *Anchor_OT, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/OT.png}
+  - {name: 其他自动,   <<: *Anchor_UT, filter: *Anchor_OT, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/OT.png}
 
 
 
