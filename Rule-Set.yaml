@@ -228,7 +228,7 @@ rule-providers:
 
   # IP规则
   private_ip:        { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/privateip.mrs"}
-  google_ip:         { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/google.mrs"}
+  google_ip:         { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/googleip.mrs"}
   telegram_ip:       { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/telegramip.mrs"}
   netflix_ip:        { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/netflixip.mrs"}
   cn_ip:             { <<: *Anchor_IP, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/cnip.mrs"}
