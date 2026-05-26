@@ -166,9 +166,9 @@ proxy-groups:
   - {name: 新加坡-自动, <<: *Anchor_UT, filter: *Anchor_SG, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/SG.png}
 
   # 美国组
-  - {name: 美国故转,   <<: *Anchor_FB, proxies: [美国-手动, 美国-自动], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/US.png}
-  - {name: 美国手动,   <<: *Anchor_HS, filter: *Anchor_US, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/US.png}
-  - {name: 美国自动,   <<: *Anchor_UT, filter: *Anchor_US, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/US.png}
+  - {name: 美国-故转,   <<: *Anchor_FB, proxies: [美国-手动, 美国-自动], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/US.png}
+  - {name: 美国-手动,   <<: *Anchor_HS, filter: *Anchor_US, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/US.png}
+  - {name: 美国-自动,   <<: *Anchor_UT, filter: *Anchor_US, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/US.png}
 
   # 欧洲组
   - {name: 欧洲-故转,   <<: *Anchor_FB, proxies: [欧洲-手动, 欧洲-自动], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/EU.png}
