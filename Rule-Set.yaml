@@ -220,7 +220,7 @@ rule-providers:
   github_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GitHub.list"}
   google_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Google.list}
   youtube_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/YouTube.list"}
-  tiktok_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Tiktok.list"}
+  tiktok_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Tiktok.list"}
   microsoft_domain:  { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Microsoft.list"}
   apple_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Apple.list"}
   telegram_domain:   { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Telegram.list"}
