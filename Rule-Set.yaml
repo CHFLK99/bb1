@@ -124,6 +124,8 @@ dns:
 proxy-groups:
   - {name: 一键代理, type: select, proxies: [香港故转, 台湾故转, 日本故转, 韩国故转, 新加坡故转, 美国故转, 欧洲故转, 其他故转, 香港自动, 台湾自动, 日本自动, 韩国自动, 新加坡自动, 美国自动, 欧洲自动, 其他自动, 香港手动, 台湾手动, 日本手动, 韩国手动, 新加坡手动, 美国手动, 欧洲手动, 其他手动, 国内直连], icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Rocket.png}
   - {name: YouTube,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/YouTube.png}
+  - {name: Google,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Google.png}
+  - {name: Tiktok,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Tiktok.png}
   - {name: Openai,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Openai.png}
   - {name: Gemini,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Gemini.png}
   - {name: GitHub,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/GitHub.png}
@@ -217,7 +219,9 @@ rule-providers:
   openai_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/OpenAI.list" }
   gemini_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Gemini.list" }
   github_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GitHub.list"}
+  google_domain:     { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Google.list}
   youtube_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/YouTube.list"}
+  tiktok_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/tiktok.list"}
   microsoft_domain:  { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Microsoft.list"}
   apple_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Apple.list"}
   telegram_domain:   { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Telegram.list"}
