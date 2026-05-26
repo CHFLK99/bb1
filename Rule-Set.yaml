@@ -192,7 +192,7 @@ rules:
   - RULE-SET,github_domain,GitHub                                       # GitHub
   - RULE-SET,youtube_domain,YouTube                                     # YouTube
   - RULE-SET,google_domain,Google                                       # Google
-  - RULE-SET,tiktok_domain,TikTok                                       # TikTok
+  - RULE-SET,tiktok_domain,Tiktok                                       # Tiktok
   - RULE-SET,microsoft_domain,Microsoft                                 # 微软服务
   - RULE-SET,apple_domain,Apple                                         # 苹果服务
   - RULE-SET,telegram_domain,Telegram                                   # Telegram
