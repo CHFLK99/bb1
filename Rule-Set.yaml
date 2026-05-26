@@ -121,8 +121,6 @@ dns:
 proxy-groups:
   - {name: 一键代理,   <<: *Anchor_PG, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Rocket.png}
   - {name: YouTube,   <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/YouTube.png}
-  - {name: Google,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Google.png}
-  - {name: Tiktok,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Tiktok.png}
   - {name: Openai,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Openai.png}
   - {name: Gemini,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/Gemini.png}
   - {name: GitHub,    <<: *Anchor_OB, icon: https://github.com/CHFLK99/bb1/raw/main/iocn/GitHub.png}
@@ -191,8 +189,6 @@ rules:
   - RULE-SET,gemini_domain,Gemini                                       # Gemini
   - RULE-SET,github_domain,GitHub                                       # GitHub
   - RULE-SET,youtube_domain,YouTube                                     # YouTube
-  - RULE-SET,google_domain,Google                                       # Google
-  - RULE-SET,tiktok_domain,Tiktok                                       # Tiktok
   - RULE-SET,microsoft_domain,Microsoft                                 # 微软服务
   - RULE-SET,apple_domain,Apple                                         # 苹果服务
   - RULE-SET,telegram_domain,Telegram                                   # Telegram
@@ -204,7 +200,6 @@ rules:
   - RULE-SET,game_domain,游戏平台                                        # 游戏平台
   - RULE-SET,media_domain,国外媒体                                       # 国外媒体                                     
   - RULE-SET,geolocation-!cn,一键代理                                    # 排除国内
-  - RULE-SET,google_ip,Google,no-resolve                                # Google
   - RULE-SET,telegram_ip,Telegram,no-resolve                            # Telegram
   - RULE-SET,netflix_ip,Netflix,no-resolve                              # Netflix
   - RULE-SET,add_direct_domain,国内直连                                  # 直连域名
@@ -219,9 +214,7 @@ rule-providers:
   openai_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/OpenAI.list" }
   gemini_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Gemini.list" }
   github_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GitHub.list"}
-  google_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Google.list"}
   youtube_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/YouTube.list"}
-  tiktok_domain:     { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Tiktok.list"}
   microsoft_domain:  { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Microsoft.list"}
   apple_domain:      { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Apple.list"}
   telegram_domain:   { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Telegram.list"}
