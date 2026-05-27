@@ -233,7 +233,7 @@ rule-providers:
   max_domain:        { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/HBO.list"}
   emby_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Emby.list"}
   game_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Games.list"}
-  globalMedia_domain:{ <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
+  globalMedia_domain: { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
   spotify_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Spotify.list"}
   geolocation-!cn:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/geolocation-!cn.mrs"}
   cn_domain:         { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/cn.mrs"}
