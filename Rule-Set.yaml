@@ -202,7 +202,7 @@ rules:
   - RULE-SET,max_domain,MAX                                             # MAX
   - RULE-SET,emby_domain,EMBY                                           # EMBY
   - RULE-SET,game_domain,游戏平台                                        # 游戏平台
-  - RULE-SET,globalMedia_domain,国外媒体                                 # 国外媒体                                     
+  - RULE-SET,globalmedia_domain,国外媒体                                 # 国外媒体                                     
   - RULE-SET,google_ip,Google,no-resolve                                # Google
   - RULE-SET,telegram_ip,Telegram,no-resolve                            # Telegram
   - RULE-SET,netflix_ip,Netflix,no-resolve                              # Netflix
@@ -235,7 +235,7 @@ rule-providers:
   max_domain:        { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/HBO.list"}
   emby_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Emby.list"}
   game_domain:       { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Games.list"}
-  globalMedia_domain: { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
+  globalmedia_domain: { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/GlobalMedia.list"}
   spotify_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Spotify.list"}
   custom_domain:    { <<: *Anchor_CL, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/Custom.list"}
   geolocation-!cn:   { <<: *Anchor_DN, url: "https://raw.githubusercontent.com/CHFLK99/bb1/refs/heads/main/Rule/geolocation-!cn.mrs"}
