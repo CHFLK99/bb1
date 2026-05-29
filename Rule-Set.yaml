@@ -186,6 +186,10 @@ rules:
    # 服务分流
   - RULE-SET,private_domain,国内直连                                     # Private
   - RULE-SET,private_ip,国内直连,no-resolve                              # Private
+  - RULE-SET,add_direct_domain,国内直连                                  # 直连域名
+  - RULE-SET,cn_domain,国内直连                                          # 中国域名
+  - RULE-SET,custom_domain,国内直连                                      # 自定义直连域名
+  - RULE-SET,cn_ip,国内直连,no-resolve                                   # 中国IP
   - RULE-SET,openai_domain,OpenAI                                       # OpenAI
   - RULE-SET,gemini_domain,Gemini                                       # Gemini
   - RULE-SET,github_domain,GitHub                                       # GitHub
@@ -208,10 +212,6 @@ rules:
   - RULE-SET,netflix_ip,Netflix,no-resolve                              # Netflix
   - RULE-SET,apple_ip,Apple,no-resolve                                  # Apple
   - RULE-SET,geolocation-!cn,一键代理                                    # 排除国内
-  - RULE-SET,add_direct_domain,国内直连                                  # 直连域名
-  - RULE-SET,cn_domain,国内直连                                          # 中国域名
-  - RULE-SET,custom_domain,国内直连                                      # 自定义直连域名
-  - RULE-SET,cn_ip,国内直连,no-resolve                                   # 中国IP
   - MATCH,漏网之鱼                                                       # 兜底规则
 
 
