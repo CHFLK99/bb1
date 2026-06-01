@@ -118,6 +118,10 @@ dns:
     - '*.lan'                                                           # 真实解析  常见局域网域名后缀
     - "rule-set:add_direct_domain"                                      # 真实解析  大陆冷门域名
     - "rule-set:cn_domain"                                              # 真实解析  大陆域名数据
+    - "+.stun.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
     - "stun.*.*"
     - "stun.*.*.*"
     - "+.stun.playstation.net"
