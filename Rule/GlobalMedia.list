@@ -4,14 +4,16 @@
 # UPDATED: 2025-12-08 02:08:06
 # DOMAIN: 37
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 1278
+# DOMAIN-SUFFIX: 1280
 # IP-CIDR: 918
 # IP-CIDR6: 6
 # PROCESS-NAME: 3
-# TOTAL: 2268
+# TOTAL: 2270
 DOMAIN-SUFFIX,c.emby.wtf
 DOMAIN-SUFFIX,mini.jmsuper.com
 DOMAIN-SUFFIX,nano.jmsuper.com
+DOMAIN-SUFFIX,mini.cr18.eu.org
+DOMAIN-SUFFIX,nano.cr18.eu.org
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
 DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
