@@ -191,35 +191,35 @@ proxy-groups:
 # ███████████████████████████ 规则匹配 ███████████████████████████
 rules:
    # 服务分流
-  - RULE-SET,private_domain,国内直连                                     # Private
-  - RULE-SET,private_ip,国内直连,no-resolve                              # Private
-  - RULE-SET,add_direct_domain,国内直连                                  # 直连域名
-  - RULE-SET,cn_ip,国内直连,no-resolve                                   # 中国IP
-  - RULE-SET,openai_domain,OpenAI                                       # OpenAI
-  - RULE-SET,gemini_domain,Gemini                                       # Gemini
-  - RULE-SET,github_domain,GitHub                                       # GitHub
-  - RULE-SET,youtube_domain,YouTube                                     # YouTube
-  - RULE-SET,google_domain,Google                                       # Google
-  - RULE-SET,microsoft_domain,Microsoft                                 # 微软服务
-  - RULE-SET,appletv_domain,AppleTV                                     # AppleTV
-  - RULE-SET,apple_domain,Apple                                         # 苹果服务  
-  - RULE-SET,tiktok_domain,TikTok                                       # TikTok
-  - RULE-SET,telegram_domain,Telegram                                   # Telegram
-  - RULE-SET,netflix_domain,Netflix                                     # Netflix
-  - RULE-SET,disney_domain,Disney+                                      # Disney+
-  - RULE-SET,spotify_domain,Spotify                                     # Spotify
-  - RULE-SET,max_domain,MAX                                             # MAX
-  - RULE-SET,emby_domain,EMBY                                           # EMBY
-  - RULE-SET,game_domain,游戏平台                                        # 游戏平台
-  - RULE-SET,globalmedia_domain,国外媒体                                 # 国外媒体                                     
-  - RULE-SET,google_ip,Google,no-resolve                                # Google
-  - RULE-SET,telegram_ip,Telegram,no-resolve                            # Telegram
-  - RULE-SET,netflix_ip,Netflix,no-resolve                              # Netflix
-  - RULE-SET,apple_ip,Apple,no-resolve                                  # Apple
-  - RULE-SET,geolocation-!cn,一键代理                                    # 排除国内
-  - RULE-SET,cn_domain,国内直连                                          # 中国域名
-  - RULE-SET,custom_domain,国内直连                                      # 自定义直连域名
-  - MATCH,漏网之鱼                                                       # 兜底规则
+  - RULE-SET,private_domain,国内直连                                       # Private
+  - RULE-SET,private_ip,国内直连,no-resolve                                # Private
+  - RULE-SET,add_direct_domain,国内直连                                    # 直连域名
+  - RULE-SET,cn_ip,国内直连,no-resolve                                     # 中国IP
+  - RULE-SET,openai_domain,OpenAI                                         # OpenAI
+  - RULE-SET,gemini_domain,Gemini                                         # Gemini
+  - RULE-SET,github_domain,GitHub                                         # GitHub
+  - RULE-SET,youtube_domain,YouTube                                       # YouTube
+  - RULE-SET,google_domain,Google                                         # Google
+  - RULE-SET,microsoft_domain,Microsoft                                   # 微软服务
+  - RULE-SET,appletv_domain,AppleTV                                       # AppleTV
+  - RULE-SET,apple_domain,Apple                                           # 苹果服务  
+  - RULE-SET,tiktok_domain,TikTok                                         # TikTok
+  - RULE-SET,telegram_domain,Telegram                                     # Telegram
+  - RULE-SET,netflix_domain,Netflix                                       # Netflix
+  - RULE-SET,disney_domain,Disney+                                        # Disney+
+  - RULE-SET,spotify_domain,Spotify                                       # Spotify
+  - RULE-SET,max_domain,MAX                                               # MAX
+  - RULE-SET,emby_domain,EMBY                                             # EMBY
+  - RULE-SET,game_domain,游戏平台                                          # 游戏平台
+  - RULE-SET,globalmedia_domain,国外媒体                                   # 国外媒体                                     
+  - RULE-SET,google_ip,Google,no-resolve                                  # Google
+  - RULE-SET,telegram_ip,Telegram,no-resolve                              # Telegram
+  - RULE-SET,netflix_ip,Netflix,no-resolve                                # Netflix
+  - RULE-SET,apple_ip,Apple,no-resolve                                    # Apple
+  - RULE-SET,geolocation-!cn,一键代理                                      # 排除国内
+  - RULE-SET,cn_domain,国内直连                                            # 中国域名
+  - RULE-SET,custom_domain,国内直连                                        # 自定义直连域名
+  - MATCH,漏网之鱼                                                         # 兜底规则
 
 
 
