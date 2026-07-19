@@ -116,7 +116,7 @@ dns:
   respect-rules: false                                                    # 遵循规则  不强制遵循规则顺序
   fake-ip-filter:
     - '*.lan'                                                             # 真实解析  常见局域网域名后缀
-    - "rule-set:add_direct_domain,private_domain,cn_domain,custom_domain" # 真实解析  大陆域名数据
+    - "rule-set:add_direct_domain,cn_domain,custom_domain"                # 真实解析  大陆域名数据
     - "+.stun.*"
     - "+.stun.*.*"
     - "+.stun.*.*.*"
